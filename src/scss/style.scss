@@ -1,0 +1,50 @@
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    color: #a2a2a2;
+}
+
+.h100 {
+    height: 100vh;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+}
+
+h4 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #d1d1d1;
+    letter-spacing: 1px;
+}
+
+a {
+    display: inline-block;
+    color: #53c0f3;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.15s ease-out;
+    &:hover {
+        text-decoration: none;
+        color: #53c0f3;
+        opacity: 0.8;
+    }
+}
+
+.resource-links {
+    a {
+        margin: 0 10px;
+    }
+}
+
+.social-links {
+    a {
+        margin: 3px 5px 0;
+    }
+}
+
+.mt20 {
+    margin-top: 20px;
+}
